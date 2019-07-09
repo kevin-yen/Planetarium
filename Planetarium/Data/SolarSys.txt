@@ -1,0 +1,48 @@
+>This file contains the data for the objects in Planetarium 101
+>
+>The acronyms and what it stands forare in the follwing table 
+>
+>NP	The number of planet in this entry	
+>NS	The number of satellites in this entry	
+>RP	The radius of the planet/satellite	
+>RO	The radius of the orbit			
+>PT	The period of each rotation		
+>PO	The period of each orbit		
+>AT	The axial tilt				>FR	File path of the ring texture location	
+>FT	File path to the texture location	
+>IR	If there's a ring on the planet		
+>GI	Inner radius of the ring		
+>GO	Outer radius of the ring		
+>BEG	Enter another level (sun->planet->satellite)	
+>END	Exit another level			
+>>
+NP$2$
+
+BEG
+@0@
+	RP#2.439#
+	RO#0.387#
+	PT#1407.504#
+	PO#1.5#
+	AT#2.18#
+	FT^Bitmaps\\Texture_Mercury.bmp
+	IR=FALSE
+	GI#0.0#
+	GO#0.0#
+	FR^INVALID
+
+	NS$0$
+@1@
+	RP#6.051#
+	RO#0.72823#
+	PT#5832.444#
+	PO#1.0#
+	AT#177.3#
+	FT^Bitmaps\\Texture_Venus.bmp
+	IR=FALSE
+	GI#0.0#
+	GO#0.0#
+	FR^INVALID
+
+	NS$0$
+END
